@@ -20,7 +20,7 @@ module.exports = {
 };
 ```
 
-### next.js app directory
+# next.js app directory
 
 ## setup provider
 
@@ -61,9 +61,9 @@ export default function RootLayout({children}: { children: React.ReactNode }) {
 }
 ```
 
-##Now you can import any NextUI component directly in your Server Components without needing to use the use client; directive:
+## Now you can import any NextUI component directly in your Server Components without needing to use the use client; directive:
 
-##page directory
+# page directory
 
 in \_app.js
 
@@ -81,4 +81,4 @@ function MyApp({ Component, pageProps }) {
 export default MyApp;
 ```
 
-#Now you can import any NextUI component wherever you want:
+# Now you can import any NextUI component wherever you want:
